@@ -346,5 +346,7 @@ router.get('/gcores/category/:category', require('./routes/gcores/category'));
 // 电影首发站 dysfz.cc
 router.get('/dysfz/:type', require('./routes/dysfz/movie'));
 
+// 52movieba
+router.get('/52movieba', require('./routes/52movieba/home'));
 
 module.exports = router;
