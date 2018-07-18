@@ -25,7 +25,7 @@ module.exports = async (ctx) => {
     const list = $(".movie-list li");
 
     ctx.state.data = {
-        title:'电影首发站',
+        title:`电影首发站 - ${type}`,
         link: 'http://www.dysfz.cc/',
         description: '国内最优秀的高清电影下载网站，每天更新迅雷中英双字电影百度云盘下载，搜集和分享高清中英双字电影百度云盘下载站，致力于构建最大的高清电影下载汇聚地，迅雷电影下载、免费电影下载尽在电影首发站高清电影下载站',
         item:
