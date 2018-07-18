@@ -349,4 +349,9 @@ router.get('/dysfz/:type', require('./routes/dysfz/movie'));
 // 52movieba
 router.get('/52movieba', require('./routes/52movieba/home'));
 
+
+// 抽屉
+router.get('/chouti/hot', require('./routes/chouti/hot'));
+router.get('/chouti/hot-list', require('./routes/chouti/hot-list'));
+
 module.exports = router;
