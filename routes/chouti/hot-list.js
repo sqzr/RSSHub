@@ -31,7 +31,7 @@ module.exports = async (ctx) => {
                 return {
                     title: item.find('.part1 a').first().text(),
                     description: item.find('.part1 a').first().text(),
-                    link: item.find('.part1 a').first().attr("href"),
+                    link: `https://dig.chouti.com/link/${item.find('.part2 .discus-a').attr("lang")}`,
                 };
             })
             .get(),
