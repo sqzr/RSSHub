@@ -9,7 +9,7 @@ module.exports = {
     listenInaddrAny: process.env.LISTEN_INADDR_ANY || 1, // 是否允许公网连接，取值 0 1
     requestRetry: process.env.REQUEST_RETRY || 2, // 请求失败重试次数
     // 是否显示 Debug 信息，取值 boolean 'false' 'key' ，取值为 'false' false 时永远不显示，取值为 'key' 时带上 ?debug=key 显示
-    debugInfo: process.env.DEBUG_INFO || true,
+    debugInfo: process.env.DEBUG_INFO || false,
     redis: {
         url: process.env.REDIS_URL || 'redis://localhost:6379/',
         options: {
