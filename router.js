@@ -342,4 +342,9 @@ router.get('/pku/eecs/:type?', require('./routes/pku/eecs'));
 // 机核
 router.get('/gcores/category/:category', require('./routes/gcores/category'));
 
+
+// 电影首发站 dysfz.cc
+router.get('/dysfz/:type', require('./routes/dysfz/movie'));
+
+
 module.exports = router;

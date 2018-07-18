@@ -1477,3 +1477,20 @@ id, 专辑 id, 可在对应专辑页面的 URL 中找到
 | 文章 | 新闻 | 电台 |
 | ---- | ---- | ---- |
 | 1    | 2    | 9    |
+
+
+
+## 电影首发站
+
+
+### 分类
+
+举例: [https://rsshub.app/dysfz/movie](https://rsshub.app/dysfz/tv)
+
+路由: `/dysfz/:type`
+
+参数: category，分类名
+
+| 电影 | 电视剧 | 动漫 |
+| ---- | ---- | ---- |
+| movie    | tv    | cartoon    |
