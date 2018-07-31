@@ -354,4 +354,9 @@ router.get('/52movieba', require('./routes/52movieba/home'));
 router.get('/chouti/hot', require('./routes/chouti/hot'));
 router.get('/chouti/hot-list', require('./routes/chouti/hot-list'));
 
+
+// 小米
+router.get('/mi/crowdfunding', require('./routes/mi/crowdfunding'));
+
+
 module.exports = router;
