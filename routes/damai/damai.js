@@ -20,8 +20,8 @@ module.exports = async (ctx) => {
         title: `大麦网 - ${cty} - ${ctl}`,
         link: 'https://www.damai.cn/',
         item: list.map((item) => ({
-            title: `${item.name} - ${item.actors}`,
-            description: `${item.name}<br/>${item.actors}<br/>地点:${item.cityname} - ${item.venue}<br/>描述:${item.description}`,
+            title: `${item.name}  - ${item.showtime}`,
+            description: `<img src=${item.verticalPic} />${item.name}<br/>${item.actors}<br/>地点:${item.cityname} - ${item.venue}<br/>描述:${item.description}<br/>状态:${item.showstatus}`,
             link: `https://piao.damai.cn/${item.projectid}.html`,
         })),
     };
