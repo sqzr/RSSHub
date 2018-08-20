@@ -447,4 +447,8 @@ router.get('/mi/crowdfunding', require('./routes/mi/crowdfunding'));
 // 大麦网
 router.get('/damai/:cty/:ctl', require('./routes/damai/damai'));
 
+
+// 西集网 价格健康
+router.get('/xiji/price/:id', require('./routes/xiji/price'));
+
 module.exports = router;
