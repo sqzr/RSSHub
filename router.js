@@ -444,4 +444,7 @@ router.get('/chouti/hot-list', require('./routes/chouti/hot-list'));
 router.get('/mi/crowdfunding', require('./routes/mi/crowdfunding'));
 
 
+// 大麦网
+router.get('/damai/:cty/:ctl', require('./routes/damai/damai'));
+
 module.exports = router;
