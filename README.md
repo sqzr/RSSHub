@@ -9,6 +9,8 @@
 
 RSSHub 是一个轻量、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源
 
+[Telegram 群](https://t.me/rsshub)
+
 [使用文档](https://docs.rsshub.app/)
 
 [English docs](https://docs.rsshub.app/en)
@@ -279,16 +281,9 @@ RSSHub 是一个轻量、易于扩展的 RSS 生成器，可以给任何奇奇�
 
 ### Special Sponsors
 
-<p>
-<a href="https://rixcloud.app/rsshub" target="_blank">
-    <img width="200px" src="https://i.imgur.com/PpcSVCZ.png">
-</a>
-</p>
-<p>
-<a href="https://werss.app?utm_source=rsshub" target="_blank">
-    <img width="150px" src="https://cdn.weapp.design/werss/werss-logo.png">
-</a>
-</p>
+| <a href="https://rixcloud.app/rsshub" target="_blank"><img width="240px" src="https://i.imgur.com/qRP0eMg.png"></a> | <a href="https://werss.app?utm_source=rsshub" target="_blank"><img width="170px" src="https://cdn.weapp.design/werss/werss-logo.png"></a> | <a href="https://j.youzan.com/ccPcrY" target="_blank"><img width="180px" src="https://i.imgur.com/FZtFAGz.png"></a> |
+| :-----------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+
 
 ### Sponsors
 
@@ -312,9 +307,9 @@ RSSHub 是一个轻量、易于扩展的 RSS 生成器，可以给任何奇奇�
 
 1.  在 [/router.js](https://github.com/DIYgod/RSSHub/blob/master/router.js) 里添加路由
 
-1.  在 [/routes/](https://github.com/DIYgod/RSSHub/tree/master/routes) 中的路由对应路径添加获取 RSS 内容的脚本
+2.  在 [/routes/](https://github.com/DIYgod/RSSHub/tree/master/routes) 中的路由对应路径添加获取 RSS 内容的脚本
 
-1.  更新 README 和文档: [/README.md](https://github.com/DIYgod/RSSHub/blob/master/README.md) [/docs/README.md](https://github.com/DIYgod/RSSHub/blob/master/docs/README.md)
+3.  更新文档: [/docs/README.md](https://github.com/DIYgod/RSSHub/blob/master/docs/README.md)
 
 ### 参与讨论
 
@@ -344,7 +339,13 @@ RSSHub 是采用 MIT 许可的开源项目，使用完全免费。 但是随着�
 周期性赞助可以获得额外的回报，比如更快的 GitHub 响应或者你的名字会出现在 RSSHub 的 GitHub 仓库和现在我们的官网中。
 
 -   通过 [Patreon](https://www.patreon.com/DIYgod) 赞助成为 backer 或 sponsor
--   给我们发邮件联系赞助事宜: i#html.love
+-   给我们发邮件联系赞助事宜: i#diygod.me
+
+## 相关项目
+
+-   [Easy to RSS](https://github.com/idealclover/Easy-to-RSS): 一个一键式发现当前网页 RSS 的 chrome 扩展，与 RSSHub 联动支持更多网页
+
+-   [rsshub.js](https://github.com/SevenOutman/rsshub.js): JavaScript library for RSSHub
 
 ## Author
 
