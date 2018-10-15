@@ -1,7 +1,10 @@
+const config = require('./config');
+if (config.newrelicLicenseKey) {
+    require('newrelic');
+}
 const Koa = require('koa');
 const fs = require('fs');
 const logger = require('./utils/logger');
-const config = require('./config');
 
 const onerror = require('./middleware/onerror');
 const header = require('./middleware/header');
@@ -13,7 +16,6 @@ const template = require('./middleware/template');
 const favicon = require('koa-favicon');
 const debug = require('./middleware/debug');
 const accessControl = require('./middleware/access-control');
-const auth = require('./middleware/auth');
 
 const router = require('./router');
 const protected_router = require('./protected_router');
@@ -39,9 +41,6 @@ app.use(favicon(__dirname + '/favicon.png'));
 
 // global error handing
 app.use(onerror);
-
-// HTTP basic authentication
-app.use(auth);
 
 // 1 set header
 app.use(header);
